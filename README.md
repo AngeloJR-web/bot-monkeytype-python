@@ -23,17 +23,23 @@ Certifique-se de ter o [Python](https://www.python.org/downloads/) instalado no 
 
 1. **Clone este repositório** (ou baixe os arquivos em formato ZIP):
    ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
-   Instale as dependências:
-Abra o terminal na pasta do projeto e instale o Selenium executando:
-python -m pip install selenium
+   git clone https://github.com/AngeloJR-web/bot-monkeytype-python.git
+   cd bot-monkeytype-python
+   ```
 
-Execute o Bot:
-python nome_do_seu_arquivo.py
+2. **Instale as dependências:**
+   ```bash
+   python -m pip install selenium
+   ```
 
-Configuração inicial: Ao rodar o script, o navegador Chrome será aberto automaticamente. Você terá 10 segundos para aceitar os cookies do site e ajustar as configurações do teste (tempo, idioma, pontuação, etc.) antes que o bot comece a digitar.
+3. **Execute o bot:**
+   ```bash
+   python script.py
+   ```
 
-⚠️ Aviso Legal e Anti-Cheat
+**Configuração inicial:** Ao rodar o script, o navegador Chrome será aberto automaticamente. Você terá 10 segundos para aceitar os cookies do site e ajustar as configurações do teste (tempo, idioma, pontuação, etc.) antes que o bot comece a digitar.
+
+### ⚠️ Aviso Legal e Anti-Cheat
 Este projeto foi criado estritamente para fins educacionais e de estudo sobre automação web com Selenium.
 
 O Monkeytype possui um sistema anti-cheat rigoroso. Se o bot digitar rápido demais ou com intervalos perfeitamente idênticos, a sua pontuação não será salva no ranking oficial e a sua conta poderá ser banida. Para testes mais intensos, recomenda-se usar o site sem estar logado em uma conta pessoal.
